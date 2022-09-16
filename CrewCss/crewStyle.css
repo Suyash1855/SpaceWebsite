@@ -1,0 +1,171 @@
+
+
+
+body{
+    background-image: url(crew/background-crew-desktop.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.3s;
+    
+}
+
+/*
+//       //
+//       //
+//NAVBAR //  
+//       //
+//       //   
+*/
+
+header{
+    position: relative;
+    margin: 30px 0px 30px 30px;
+    display: flex;
+    color: aliceblue;
+    justify-content:center;
+    align-items: center;
+    gap:550px;
+    
+}
+hr{
+    background-color: rgb(62, 59, 59);
+    top:-205px;
+    left:-200px;
+    position: absolute;
+    width: 0.5px;
+    border: 0;
+    height: 500px;
+    margin: 0;
+    transform: rotate(90deg);
+}
+.navbar{
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    display: flex;
+    justify-content: center;
+  width: 70%;
+}
+.nav-list{
+    opacity: 1;
+  display: flex;
+}
+.nav-list span{
+    font-weight: 600;
+    margin: auto 15px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-items{
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin: 20px 30px;
+  list-style: none;
+}
+.nav-items::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 0%;
+    left: 11px;
+    bottom: -37px;
+    transition: 0.3s ease-in;
+}
+.nav-items:hover{
+    font-weight: 600;
+}
+.nav-items:hover::after{
+    width: 100%;
+}
+#burger{
+    position: absolute;
+    right: 30px;
+    display: none;
+}
+.crew-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    gap:100px;
+    height: 700px;
+}
+.cinfo h1, h2{
+   font-family: 'Aboreto', cursive;
+}
+.a{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top:130px;
+    left: 180px;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+.a span{
+    color: rgb(138, 138, 138);
+
+}
+.cinfo{
+    width:500px;
+}
+.b{
+    color: rgb(138, 138, 138);
+}
+.cinfo h1{
+    font-size: 40px;
+}
+.cinfo p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: rgb(138, 138, 138);
+}
+.crew-list{
+  display: flex;
+  gap:30px;
+  padding: 0;
+  list-style: none;
+  margin-top:70px ;
+}
+.crew-list a{
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+.crew-items{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color:rgb(138, 138, 138);
+
+}
+.crew-items:hover{
+    background-color: aliceblue;
+}
+.img{
+    height:100%;
+    width:500px;
+}
+.img-pil{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

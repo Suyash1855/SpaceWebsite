@@ -1,0 +1,143 @@
+
+
+
+body{
+    background-image: url(home/background-home-desktop.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.3s;
+   
+}
+
+/*
+//       //
+//       //
+//NAVBAR //  
+//       //
+//       //   
+*/
+
+header{
+    position: relative;
+    margin: 30px 0px 30px 30px;
+    display: flex;
+    color: aliceblue;
+    justify-content:center;
+    align-items: center;
+    gap:550px;
+    
+}
+.home-hr{
+    background-color: rgb(62, 59, 59);
+    top:-205px;
+    left:-200px;
+    position: absolute;
+    width: 0.5px;
+    border: 0;
+    height: 500px;
+    margin: 0;
+    transform: rotate(90deg);
+}
+.navbar{
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    display: flex;
+    justify-content: center;
+  width: 70%;
+}
+.nav-list{
+    opacity: 1;
+  display: flex;
+}
+.nav-list span{
+    font-weight: 600;
+    margin: auto 15px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-items{
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin: 20px 30px;
+    list-style: none;
+}
+.nav-items::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 0%;
+    left: 11px;
+    bottom: -37px;
+    transition: 0.3s ease-in;
+}
+.nav-items:hover{
+    font-weight: 600;
+}
+.nav-items:hover::after{
+    width: 100%;
+}
+.nav-items:focus::after{
+    width: 100%;
+}
+#burger{
+    position: absolute;
+    right: 30px;
+    display: none;
+}
+
+.head-content{
+    margin: 150px auto 0 auto ;
+    display: flex;
+justify-content: space-around;
+    padding: 20px;
+    color: aliceblue;
+   max-width: 90%;
+   font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.content{
+    width: 450px;
+}
+.head-content h3{
+    font-size: 40px;
+    color:rgb(138, 138, 138);
+     margin: 20px 0;
+     word-spacing: 3px;
+}
+.head-content h1{
+    margin: 0;
+    font-size: 110px;
+    font-family: 'Aboreto', cursive;
+}
+.head-content p{
+    word-spacing: 2px;
+
+    color: rgb(138, 138, 138);
+    font-size: 20px;
+    font-weight: 600;
+    width:400px ;
+  
+}
+.cir h2{
+    font-size: 40px;
+ margin: 75px 20px;
+}
+.cir {
+    height: 200px;
+    width: 200px;
+    color: black;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 100px 20px;
+    transition: 0.4s;
+}
+.cir:hover{
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.5);
+}

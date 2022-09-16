@@ -1,0 +1,163 @@
+
+
+
+body{
+    background-image: url(technology/background-technology-desktop.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.3s;
+    
+}
+
+/*
+//       //
+//       //
+//NAVBAR //  
+//       //
+//       //   
+*/
+
+header{
+    position: relative;
+    margin: 30px 0px 30px 30px;
+    display: flex;
+    color: aliceblue;
+    justify-content:center;
+    align-items: center;
+    gap:550px;
+    
+}
+hr{
+    background-color: rgb(62, 59, 59);
+    top:-205px;
+    left:-200px;
+    position: absolute;
+    width: 0.5px;
+    border: 0;
+    height: 500px;
+    margin: 0;
+    transform: rotate(90deg);
+}
+.navbar{
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    display: flex;
+    justify-content: center;
+  width: 70%;
+}
+.nav-list{
+    opacity: 1;
+  display: flex;
+}
+.nav-list span{
+    font-weight: 600;
+    margin: auto 15px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-items{
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin: 20px 30px;
+  list-style: none;
+}
+.nav-items::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 0%;
+    left: 11px;
+    bottom: -37px;
+    transition: 0.3s ease-in;
+}
+.nav-items:hover{
+    font-weight: 600;
+}
+.nav-items:hover::after{
+    width: 100%;
+}
+#burger{
+    position: absolute;
+    right: 30px;
+    display: none;
+}
+.tech-container{
+    display: flex;
+    color: aliceblue;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    align-items: center;
+    margin: 100px 0 0 0 ;
+}
+.tech-info{
+    width:600px;
+    margin: 0 0 0 35px;
+}
+.tech-img{
+    margin: 0 0 0 250px;
+}
+
+.tech-info h1{
+    font-size: 50px;
+   font-family: 'Aboreto', cursive;
+   margin: 10px 0 0 0;
+}
+.c{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top:130px;
+    left: 180px;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+.tech-ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0 0 0 100px;
+    gap:30px;
+}
+.tech-ul a{
+    text-decoration: none;
+}
+.term{
+    margin: 0;
+}
+.tech-ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    width: 60px;
+    height: 60px;
+   font-family: 'Aboreto', cursive;
+   font-size: 25px;
+    box-shadow: 0 0 0 1px aliceblue;
+    border-radius: 100%;
+}
+.tech-ul li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.c span{
+    color: rgb(138, 138, 138);
+}
+
+.tech-info p{
+    color: rgb(138, 138, 138);
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.img-b{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
